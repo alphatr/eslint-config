@@ -70,7 +70,7 @@ module.exports = {
          * v-for 中禁止定义未使用的变量
          * @see https://eslint.vuejs.org/rules/no-unused-vars.html
          */
-        "vue/vue/no-unused-vars": "error",
+        "vue/no-unused-vars": "error",
 
         /**
          * 禁止在同一节点上使用 v-for 和 v-if
