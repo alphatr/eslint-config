@@ -432,7 +432,7 @@ module.exports = {
          * 正则中必须使用 `u` 标记
          * @see https://eslint.org/docs/rules/require-unicode-regexp
          */
-        "require-unicode-regexp": "error",
+        "require-unicode-regexp": "off",
 
         /**
          * 在顶部声明

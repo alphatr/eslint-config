@@ -298,7 +298,17 @@ module.exports = {
          * 禁止混用的运算符
          * @see http://eslint.org/docs/rules/no-mixed-operators
          */
-        "no-mixed-operators": ["error", {"allowSamePrecedence": true}],
+        "no-mixed-operators": ["error", {
+            "groups": [
+                ...["+", "-", "*", "/", "**"].map(x => [x, "%"]),
+                ...["+", "-", "*", "/", "%"].map(x => [x, "**"]),
+                ["&", "|", "^", "~", "<<", ">>", ">>>"],
+                ["==", "!=", "===", "!==", ">", ">=", "<", "<="],
+                ["&&", "||"],
+                ["in", "instanceof"]
+            ],
+            "allowSamePrecedence": false
+        }],
 
         /**
          * 禁止混用空格和 tab
