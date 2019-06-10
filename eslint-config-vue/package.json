@@ -1,7 +1,7 @@
 {
   "name": "@alphatr/eslint-config-vue",
   "description": "EcmaScript Style Guide for Vue",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "author": {
     "name": "AlphaTr",
     "email": "alphatr@alphatr.com"
