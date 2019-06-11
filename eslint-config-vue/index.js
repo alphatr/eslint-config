@@ -12,6 +12,10 @@ module.exports = {
         requireConfigFile: false,
         allowImportExportEverywhere: false
     },
+    env: {
+        "browser": true,
+        es6: true
+    },
     plugins: ["vue"],
     "extends": [
         "@alphatr/eslint-config-base",

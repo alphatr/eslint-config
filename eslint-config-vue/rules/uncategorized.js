@@ -52,7 +52,7 @@ module.exports = {
          * 属性前面的 . 和属性之间禁止换行
          * @see https://eslint.vuejs.org/rules/dot-location.html
          */
-        "vue/dot-location": ["error", "property"],
+        // "vue/dot-location": ["error", "property"],
 
         /**
          * 使用 === 而不是 ==
@@ -70,7 +70,7 @@ module.exports = {
          * 关键字两侧空格
          * @see https://eslint.vuejs.org/rules/keyword-spacing.html
          */
-        "vue/keyword-spacing": ["warn", {"before": true, after: true}],
+        // "vue/keyword-spacing": ["warn", {"before": true, after: true}],
 
         /**
          * 匹配组件文件名
@@ -88,13 +88,13 @@ module.exports = {
          * 废弃的 scope 属性
          * @see https://eslint.vuejs.org/rules/no-deprecated-scope-attribute.html
          */
-        "vue/no-deprecated-scope-attribute": "warn",
+        // "vue/no-deprecated-scope-attribute": "warn",
 
         /**
          * 禁止使用空解构模式
          * @see https://eslint.vuejs.org/rules/no-empty-pattern.html
          */
-        "vue/no-empty-pattern": "error",
+        // "vue/no-empty-pattern": "error",
 
         /**
          * 限制的语法
@@ -136,18 +136,18 @@ module.exports = {
          * v-on 中函数调用风格
          * @see https://eslint.vuejs.org/rules/v-on-function-call.html
          */
-        "vue/v-on-function-call": "error",
+        "vue/v-on-function-call": "error"
 
         /**
          * v-slot 风格
          * @see https://eslint.vuejs.org/rules/v-slot-style.html
          */
-        "vue/v-slot-style": ["warn", {"atComponent": "v-slot", "default": "v-slot", "named": "shorthand"}],
+        // "vue/v-slot-style": ["warn", {"atComponent": "v-slot", "default": "v-slot", "named": "shorthand"}],
 
         /**
          * v-slot 验证
          * @see https://eslint.vuejs.org/rules/valid-v-slot.html
          */
-        "vue/valid-v-slot": "error"
+        // "vue/valid-v-slot": "error"
     }
 };
