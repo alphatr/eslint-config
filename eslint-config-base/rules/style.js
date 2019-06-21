@@ -238,7 +238,7 @@ module.exports = {
          * 多行注释的格式
          * @see http://eslint.org/docs/rules/multiline-comment-style
          */
-        "multiline-comment-style": ["warn", "starred-block"],
+        "multiline-comment-style": "off",
 
         /**
          * 多行的三元运算符
