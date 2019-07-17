@@ -8,7 +8,7 @@
   },
   "main": "index.js",
   "peerDependencies": {
-    "eslint": "^5.15.0",
+    "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.2.0",
     "vue-eslint-parser": "^5.0.0"
   },
@@ -23,11 +23,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.15.0",
+    "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.2.0",
     "vue-eslint-parser": "^5.0.0"
   },
   "dependencies": {
-    "@alphatr/eslint-config-base": "^2.1.0"
+    "@alphatr/eslint-config-base": "^2.1.2"
   }
 }
