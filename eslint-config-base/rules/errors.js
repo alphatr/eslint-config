@@ -112,7 +112,7 @@ module.exports = {
          * 禁止不必要的括号
          * @see http://eslint.org/docs/rules/no-extra-parens
          */
-        "no-extra-parens": "error",
+        "no-extra-parens": ["error", "all", {"enforceForArrowConditionals": false}],
 
         /**
          * 禁止不必要的分号
